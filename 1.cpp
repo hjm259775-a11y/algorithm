@@ -3,6 +3,7 @@ public:
     long long interchangeableRectangles(vector<vector<int>>& rec) {
         map<double,long long> xgz;
         long long ans=0;
+        int a;
         for(int i=0;i<rec.size();i++)
         {
             double a=rec[i][0];
